@@ -67,7 +67,6 @@
             <md-select class="font-list-${textFont}" v-model="textFont" name="textFont" id="textFont" @md-selected="updateTextFont(textFont)" >
               <md-option class="font-list-Avenir"        value="Avenir">元に戻す</md-option>
               <md-option class="font-list-Tetsubin"      value="Tetsubin">鉄瓶ゴシック</md-option>
-              <md-option class="font-list-FgZero"        value="FgZero">FGゼロラバウル</md-option>
               <md-option class="font-list-Tanuki"        value="Tanuki">たぬき油性マジック</md-option>
               <md-option class="font-list-LightNovelPop" value="LightNovelPop">ライトノベルPOP</md-option>
             </md-select>
@@ -197,7 +196,8 @@ export default {
       },
       customFontList:[
         'Tetsubin',
-        'FgZero',
+        'Tanuki',
+        'LightNovelPop',
       ],
       baseImages:[
         {
@@ -274,7 +274,7 @@ export default {
 
 <style >
   #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif, Tetsubin, FgZero;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size:   50px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -298,10 +298,6 @@ export default {
 
   .font-list-Tetsubin {
     font-family: 'Tetsubin';
-  }
-
-  .font-list-FgZero {
-    font-family: 'FgZero';
   }
 
   .font-list-Tanuki {

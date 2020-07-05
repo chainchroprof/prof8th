@@ -27,9 +27,6 @@
               <a href="http://fontna.com/freefont/?p=12" >鉄瓶ゴシック</a>
             </md-list-item>
             <md-list-item>
-              <a href="https://fontgraphic.jp/fg_zerorabaul" >FGゼロラバウル</a>
-            </md-list-item>
-            <md-list-item>
               <a href="https://tanukifont.com/tanuki-permanent-marker/" >たぬき油性マジック</a>
             </md-list-item>
             <md-list-item>
