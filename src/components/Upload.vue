@@ -11,9 +11,6 @@
 <script>
 /* eslint-disable no-console */
 export default {
-  components: {
-  },
-
   data() {
     return {
       uploadedImage: ''
@@ -28,7 +25,6 @@ export default {
 
     // アップロードした画像を表示
     createImage(file) {
-      console.log(file)
       const reader = new FileReader();
       reader.onload = e => {
         //this.uploadedImage = e.target.result;
