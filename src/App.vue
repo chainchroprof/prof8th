@@ -44,8 +44,8 @@
 
         <md-list-item>
           <md-field>
-            <label>キャラクタ名</label>
-            <md-input v-model="charactorName" placeholder="キャラクタ名"></md-input>
+            <label>キャラクター</label>
+            <md-input v-model="charactorName" placeholder="キャラクター"></md-input>
           </md-field>
         </md-list-item>
 
