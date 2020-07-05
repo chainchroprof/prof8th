@@ -65,9 +65,9 @@
           <md-field>
             <label >フォント変更</label>
             <md-select v-model="textFont" name="textFont" id="textFont" @md-selected="updateTextFont(textFont)" >
-              <md-option value="Tetsubin">男前</md-option>
               <md-option value="Avenir">元に戻す</md-option>
-              <md-option value="FgZero">戦闘機</md-option>
+              <md-option value="Tetsubin">鉄瓶ゴシック</md-option>
+              <md-option value="FgZero">FGゼロラバウル</md-option>
             </md-select>
           </md-field>
         </md-list-item>
