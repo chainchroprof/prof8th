@@ -17,37 +17,43 @@
       </md-card-content>
     </md-card>
 
-    <!--
     <md-card>
-      <md-dialog :md-active.sync="showChangeLog">
-        <md-dialog-title>更新履歴</md-dialog-title>
+      <md-dialog :md-active.sync="showSpecialThanks">
+        <md-dialog-title>Special Thanks !!</md-dialog-title>
 
-        <md-tab md-label="General">
-          <p>2020.07.05: フォント変えられまっせー</p>
-          <p>2020.07.04: とりあえず作りましたぜー</p>
-        </md-tab>
+          <div class="md-title">以下のフォントを利用させてもらっています！</div>
+          <md-list>
+            <md-list-item>
+              <a href="http://fontna.com/freefont/?p=12" >鉄瓶ゴシック</a>
+            </md-list-item>
+            <md-list-item>
+              <a href="https://fontgraphic.jp/fg_zerorabaul" >FGゼロラバウル</a>
+            </md-list-item>
+          </md-list>
 
         <md-dialog-actions>
-          <md-button class="md-primary" @click="showChangeLog = false">閉じる</md-button>
+          <md-button class="md-primary" @click="showSpecialThanks = false">閉じる</md-button>
         </md-dialog-actions>
       </md-dialog>
-      <md-button class="md-primary md-raised" @click="showChangeLog = true">更新履歴</md-button>
+      <md-button class="md-primary md-raised" @click="showSpecialThanks = true">SpecialThanks!</md-button>
     </md-card>
-    -->
   </div>
 </template>
 
 <script>
   export default {
     name: 'AppFooter',
-    //data: () => ({
-    //  showChangeLog: false
-    //})
+    data: () => ({
+      showSpecialThanks: false
+    })
   }
 </script>
 
 <style lang="scss" scoped>
   .md-card {
     margin: 10px;
+  }
+  .md-dialog {
+    max-width: 768px;
   }
 </style>
