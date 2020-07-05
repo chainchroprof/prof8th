@@ -22,15 +22,16 @@
         <md-dialog-title>Special Thanks !!</md-dialog-title>
 
           <div class="md-title">以下のフォントを利用させてもらっています！</div>
+          <div class="md-title">ありがとうございます！</div>
           <md-list>
-            <md-list-item>
-              <a href="http://fontna.com/freefont/?p=12" >鉄瓶ゴシック</a>
-            </md-list-item>
             <md-list-item>
               <a href="https://tanukifont.com/tanuki-permanent-marker/" >たぬき油性マジック</a>
             </md-list-item>
             <md-list-item>
-              <a href="http://www.fontna.com/blog/1706/" >ライトノベルPOP</a>
+              <a href="http://www.fontna.com/blog/1706/" >ラノベPOP</a>
+            </md-list-item>
+            <md-list-item>
+              <a href="http://jikasei.me/font/rounded-mplus/about.html" >自家製 Rounded M+</a>
             </md-list-item>
           </md-list>
 

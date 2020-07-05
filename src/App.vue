@@ -66,9 +66,9 @@
             <label >フォント変更</label>
             <md-select class="font-list-${textFont}" v-model="textFont" name="textFont" id="textFont" @md-selected="updateTextFont(textFont)" >
               <md-option class="font-list-Avenir"        value="Avenir">元に戻す</md-option>
-              <md-option class="font-list-Tetsubin"      value="Tetsubin">鉄瓶ゴシック</md-option>
               <md-option class="font-list-Tanuki"        value="Tanuki">たぬき油性マジック</md-option>
-              <md-option class="font-list-LightNovelPop" value="LightNovelPop">ライトノベルPOP</md-option>
+              <md-option class="font-list-LightNovelPop" value="LightNovelPop">ラノベPOP</md-option>
+              <md-option class="font-list-Rounded"       value="Rounded">自家製 Rounded M+</md-option>
             </md-select>
           </md-field>
         </md-list-item>
@@ -195,9 +195,9 @@ export default {
           hex: '#000000',
       },
       customFontList:[
-        'Tetsubin',
         'Tanuki',
         'LightNovelPop',
+        'Rounded',
       ],
       baseImages:[
         {
@@ -296,16 +296,16 @@ export default {
     font-family: 'Avenir';
   }
 
-  .font-list-Tetsubin {
-    font-family: 'Tetsubin';
-  }
-
   .font-list-Tanuki {
     font-family: 'Tanuki';
   }
 
   .font-list-LightNovelPop {
     font-family: 'LightNovelPop';
+  }
+
+  .font-list-Rounded {
+    font-family: 'Rounded';
   }
 
   .md-radio {
