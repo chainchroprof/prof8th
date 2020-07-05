@@ -2,7 +2,9 @@
 
 # 使ったリソース
 
-* 鉄瓶フォント
-   * http://fontfree.me/blog/104
-* FGゼロラバウル
-   * https://fontgraphic.jp/fg_zerorabaul
+* たぬき油性マジック
+   * https://tanukifont.com/tanuki-permanent-marker
+* ラノベPOP
+   * http://www.fontna.com/blog/1706/
+* 自家製 Rounded M+
+   * http://jikasei.me/font/rounded-mplus/about.html
