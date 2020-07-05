@@ -3,6 +3,7 @@
     <md-card class="md-primary" md-theme="orange-card" >
       <md-card-header>
         <div class="md-title">ベースの画像は公式サイトのものを利用しています</div>
+        <br>
         <md-button class="md-title" align="center" href="http://chronicle.sega-net.com/7th_chain/">公式サイトへGo!</md-button>
       </md-card-header>
 
