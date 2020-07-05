@@ -107,16 +107,14 @@
           v-on:updated="updateProfileImage($event)"
         />
 
-        <md-card-header>
-          <div class="md-title" textAlign='left'>画像位置調整</div>
-        </md-card-header>
-        <md-card-content>
+        <div class="md-title" text-align=left >画像位置調整</div>
+        <md-list-item>
           <md-button class="md-raised md-primary" v-on:click="updateProfilePosX(10)">→</md-button>
           <md-button class="md-raised md-primary" v-on:click="updateProfilePosX(-10)">←</md-button>
           <md-button class="md-raised md-primary" v-on:click="updateProfilePosY(10)">↓</md-button>
           <md-button class="md-raised md-primary" v-on:click="updateProfilePosY(-10)">↑</md-button>
           <md-button class="md-raised md-primary" v-on:click="resetProfilePos()">reset</md-button>
-        </md-card-content>
+        </md-list-item>
 
         <DownloadButton
           :labelText="dlButtonLabel"
