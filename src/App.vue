@@ -65,10 +65,11 @@
           <md-field>
             <label >フォント変更</label>
             <md-select class="font-list-${textFont}" v-model="textFont" name="textFont" id="textFont" @md-selected="updateTextFont(textFont)" >
-              <md-option class="font-list-Avenir"   value="Avenir">元に戻す</md-option>
-              <md-option class="font-list-Tetsubin" value="Tetsubin">鉄瓶ゴシック</md-option>
-              <md-option class="font-list-FgZero"   value="FgZero">FGゼロラバウル</md-option>
-              <md-option class="font-list-Tanuki"   value="Tanuki">たぬき油性マジック</md-option>
+              <md-option class="font-list-Avenir"        value="Avenir">元に戻す</md-option>
+              <md-option class="font-list-Tetsubin"      value="Tetsubin">鉄瓶ゴシック</md-option>
+              <md-option class="font-list-FgZero"        value="FgZero">FGゼロラバウル</md-option>
+              <md-option class="font-list-Tanuki"        value="Tanuki">たぬき油性マジック</md-option>
+              <md-option class="font-list-LightNovelPop" value="LightNovelPop">ライトノベルPOP</md-option>
             </md-select>
           </md-field>
         </md-list-item>
@@ -305,6 +306,10 @@ export default {
 
   .font-list-Tanuki {
     font-family: 'Tanuki';
+  }
+
+  .font-list-LightNovelPop {
+    font-family: 'LightNovelPop';
   }
 
   .md-radio {

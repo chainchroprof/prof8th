@@ -32,6 +32,9 @@
             <md-list-item>
               <a href="https://tanukifont.com/tanuki-permanent-marker/" >たぬき油性マジック</a>
             </md-list-item>
+            <md-list-item>
+              <a href="http://www.fontna.com/blog/1706/" >ライトノベルPOP</a>
+            </md-list-item>
           </md-list>
 
         <md-dialog-actions>
