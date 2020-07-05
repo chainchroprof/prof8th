@@ -68,6 +68,7 @@
               <md-option class="font-list-Avenir"   value="Avenir">元に戻す</md-option>
               <md-option class="font-list-Tetsubin" value="Tetsubin">鉄瓶ゴシック</md-option>
               <md-option class="font-list-FgZero"   value="FgZero">FGゼロラバウル</md-option>
+              <md-option class="font-list-Tanuki"   value="Tanuki">たぬき油性マジック</md-option>
             </md-select>
           </md-field>
         </md-list-item>
@@ -300,6 +301,10 @@ export default {
 
   .font-list-FgZero {
     font-family: 'FgZero';
+  }
+
+  .font-list-Tanuki {
+    font-family: 'Tanuki';
   }
 
   .md-radio {
