@@ -49,6 +49,7 @@ export default {
   .md-title {
     text-align: left;
     margin-top: 30px;
+    margin-left: 18px;
   }
 
 </style>
