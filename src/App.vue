@@ -108,7 +108,7 @@
         />
 
         <md-card-header>
-          <div class="md-title">画像位置調整</div>
+          <div class="md-title" textAlign='left'>画像位置調整</div>
         </md-card-header>
         <md-card-content>
           <md-button class="md-raised md-primary" v-on:click="updateProfilePosX(10)">→</md-button>

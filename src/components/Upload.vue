@@ -45,4 +45,11 @@ export default {
 };
 </script>
 
+<style scoped>
+  .md-title {
+    text-align: left;
+    margin-top: 30px;
+  }
+
+</style>
 
