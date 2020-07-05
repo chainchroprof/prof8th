@@ -64,10 +64,10 @@
         <md-list-item>
           <md-field>
             <label >フォント変更</label>
-            <md-select v-model="textFont" name="textFont" id="textFont" @md-selected="updateTextFont(textFont)" >
-              <md-option value="Avenir">元に戻す</md-option>
-              <md-option value="Tetsubin">鉄瓶ゴシック</md-option>
-              <md-option value="FgZero">FGゼロラバウル</md-option>
+            <md-select class="font-list-${textFont}" v-model="textFont" name="textFont" id="textFont" @md-selected="updateTextFont(textFont)" >
+              <md-option class="font-list-Avenir"   value="Avenir">元に戻す</md-option>
+              <md-option class="font-list-Tetsubin" value="Tetsubin">鉄瓶ゴシック</md-option>
+              <md-option class="font-list-FgZero"   value="FgZero">FGゼロラバウル</md-option>
             </md-select>
           </md-field>
         </md-list-item>
@@ -271,23 +271,38 @@ export default {
 </script>
 
 <style >
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif, Tetsubin, FgZero;
+    font-size:   50px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 5px;
+  }
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif, Tetsubin, FgZero;
-  font-size:   50px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 5px;
-}
+  .viewport {
+    width: 600px;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    overflow: auto;
+    border: 1px solid rgba(#000, .12);
+  }
 
-.viewport {
-  width: 600px;
-  max-width: 100%;
-  display: inline-block;
-  vertical-align: top;
-  overflow: auto;
-  border: 1px solid rgba(#000, .12);
-}
+  .font-list-Avenir {
+    font-family: 'Avenir';
+  }
+
+  .font-list-Tetsubin {
+    font-family: 'Tetsubin';
+  }
+
+  .font-list-FgZero {
+    font-family: 'FgZero';
+  }
+
+  .md-radio {
+    display: flex;
+  }
 </style>
