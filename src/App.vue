@@ -107,13 +107,15 @@
           v-on:updated="updateProfileImage($event)"
         />
 
-        <div class="md-title" text-align=left >画像位置調整</div>
+        <div class="md-title adjust-feature-layout" text-align=left >画像位置調整</div>
         <md-list-item>
-          <md-button class="md-raised md-primary" v-on:click="updateProfilePosX(10)">→</md-button>
-          <md-button class="md-raised md-primary" v-on:click="updateProfilePosX(-10)">←</md-button>
-          <md-button class="md-raised md-primary" v-on:click="updateProfilePosY(10)">↓</md-button>
-          <md-button class="md-raised md-primary" v-on:click="updateProfilePosY(-10)">↑</md-button>
-          <md-button class="md-raised md-primary" v-on:click="resetProfilePos()">reset</md-button>
+          <div class="md-layout">
+            <md-button class="md-layout-item md-size-15 md-raised md-primary" v-on:click="updateProfilePosX(10)">→</md-button>
+            <md-button class="md-layout-item md-size-15 md-raised md-primary" v-on:click="updateProfilePosX(-10)">←</md-button>
+            <md-button class="md-layout-item md-size-15 md-raised md-primary" v-on:click="updateProfilePosY(10)">↓</md-button>
+            <md-button class="md-layout-item md-size-15 md-raised md-primary" v-on:click="updateProfilePosY(-10)">↑</md-button>
+            <md-button class="md-layout-item md-size-25 md-raised md-primary" v-on:click="resetProfilePos()">reset</md-button>
+          </div>
         </md-list-item>
 
         <DownloadButton
@@ -270,7 +272,7 @@ export default {
 }
 </script>
 
-<style >
+<style scope>
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size:   50px;
@@ -306,7 +308,9 @@ export default {
     font-family: 'Rounded';
   }
 
-  .md-radio {
-    display: flex;
+  .adjust-feature-layout {
+    text-align: left;
+    margin-left: 18px;
   }
+
 </style>
