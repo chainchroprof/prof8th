@@ -155,13 +155,13 @@ import DownloadButton from './components/DownloadButton.vue'
 import AppTitle       from './components/AppTitle.vue'
 import AppFooter      from './components/AppFooter.vue'
 
-import baseProfileImage1 from "./assets/_images_common_8th_card_card_01.png"
-import baseProfileImage2 from "./assets/_images_common_8th_card_card_02.png"
-import baseProfileImage3 from "./assets/_images_common_8th_card_card_03.png"
-import baseProfileImage4 from "./assets/_images_common_8th_card_card_04.png"
-import baseProfileImage5 from "./assets/_images_common_8th_card_card_05.png"
-import baseProfileImage6 from "./assets/_images_common_8th_card_card_06.png"
-import baseProfileImage7 from "./assets/_images_common_8th_card_card_06_img.png"
+import baseProfileImage1 from "./assets/images_common_8th_card_card_01.png"
+import baseProfileImage2 from "./assets/images_common_8th_card_card_02.png"
+import baseProfileImage3 from "./assets/images_common_8th_card_card_03.png"
+import baseProfileImage4 from "./assets/images_common_8th_card_card_04.png"
+import baseProfileImage5 from "./assets/images_common_8th_card_card_05.png"
+import baseProfileImage6 from "./assets/images_common_8th_card_card_06.png"
+import baseProfileImage7 from "./assets/images_common_8th_card_card_06_img.png"
 
 
 import {Compact} from 'vue-color'
