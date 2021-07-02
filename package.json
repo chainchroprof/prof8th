@@ -14,7 +14,8 @@
     "sass-loader": "^10",
     "vue": "^2.6.14",
     "vue-color": "^2.8.1",
-    "vue-material": "^1.0.0-beta-14"
+    "vue-material": "^1.0.0-beta-14",
+    "glob-parent": "^5.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.13",
@@ -24,8 +25,7 @@
     "blueimp-load-image": "^5.13.0",
     "eslint": "^7.29.0",
     "eslint-plugin-vue": "^7.12.1",
-    "vue-template-compiler": "^2.6.14",
-    "glob-parent": "^5.1.2"
+    "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
     "root": true,
