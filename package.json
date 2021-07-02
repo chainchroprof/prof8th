@@ -24,7 +24,8 @@
     "blueimp-load-image": "^5.13.0",
     "eslint": "^7.29.0",
     "eslint-plugin-vue": "^7.12.1",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "glob-parent": "^5.1.2:"
   },
   "eslintConfig": {
     "root": true,
