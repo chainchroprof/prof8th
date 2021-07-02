@@ -2,19 +2,18 @@
   <div>
     <md-card class="md-primary" md-theme="orange-card" >
       <md-card-header>
-        <div class="md-title">ベースの画像は公式サイトのものを利用しています</div>
+        <div class="md-title">背景画像は公式サイトのものを利用しています</div>
         <br>
-        <md-button class="md-title" align="center" href="http://chronicle.sega-net.com/7th_chain/">公式サイトへGo!</md-button>
+        <md-button class="md-title" align="center" href="https://chronicle.sega-net.com/8th_chain/">公式サイトへGo!</md-button>
       </md-card-header>
 
       <md-card-content>
         <a href="https://twitter.com/datsuns" target="_blank">by @datsuns</a>
         <br>
-        <a href="https://github.com/chainchroprof/prof7th" target="_blank">source code(github)</a>
+        <a href="https://github.com/chainchroprof/prof8th" target="_blank">source code(github)</a>
 
         <div class="md-subhead">更新履歴</div>
-        <div class="md-subhead">2020.07.05: フォント変えられまっせー</div>
-        <div class="md-subhead">2020.07.04: とりあえず作りましたぜー</div>
+        <div class="md-subhead">2021.07.03: 8周年★</div>
       </md-card-content>
     </md-card>
 
