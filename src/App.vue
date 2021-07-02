@@ -24,6 +24,7 @@
               <md-option value="セレステ">セレステ</md-option>
               <md-option value="アマツ">アマツ</md-option>
               <md-option value="つかむ">つかむ</md-option>
+              <md-option value="つかむ2">つかむ2</md-option>
             </md-select>
           </md-field>
         </md-list-item>
@@ -154,12 +155,14 @@ import DownloadButton from './components/DownloadButton.vue'
 import AppTitle       from './components/AppTitle.vue'
 import AppFooter      from './components/AppFooter.vue'
 
-import baseProfileImage1 from "./assets/images_common_card_01a.png"
-import baseProfileImage2 from "./assets/images_common_card_02a.png"
-import baseProfileImage3 from "./assets/images_common_card_03a.png"
-import baseProfileImage4 from "./assets/images_common_card_04a.png"
-import baseProfileImage5 from "./assets/images_common_card_05a.png"
-import baseProfileImage6 from "./assets/images_common_card_06a.png"
+import baseProfileImage1 from "./assets/_images_common_8th_card_card_01.png"
+import baseProfileImage2 from "./assets/_images_common_8th_card_card_02.png"
+import baseProfileImage3 from "./assets/_images_common_8th_card_card_03.png"
+import baseProfileImage4 from "./assets/_images_common_8th_card_card_04.png"
+import baseProfileImage5 from "./assets/_images_common_8th_card_card_05.png"
+import baseProfileImage6 from "./assets/_images_common_8th_card_card_06.png"
+import baseProfileImage7 from "./assets/_images_common_8th_card_card_06_img.png"
+
 
 import {Compact} from 'vue-color'
 
@@ -223,6 +226,10 @@ export default {
         {
           name: 'つかむ',
            img: baseProfileImage6,
+        },
+        {
+          name: 'つかむ2',
+           img: baseProfileImage7,
         },
       ],
     }
